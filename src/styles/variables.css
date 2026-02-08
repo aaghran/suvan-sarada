@@ -1,21 +1,30 @@
 :root {
-  /* Brand Colors */
-  --color-primary: #1e3a8a; /* Deep Blue */
-  --color-primary-light: #3b82f6;
-  --color-primary-dark: #172554;
-  
-  --color-accent: #ea580c; /* Warm Orange */
-  --color-accent-light: #f97316;
-  --color-accent-dark: #c2410c;
+  /* Brand Colors - Traditional Bengali Palette */
 
-  /* Neutral Colors */
-  --color-bg: #ffffff;
-  --color-bg-alt: #f8fafc;
-  --color-text: #0f172a;
-  --color-text-muted: #64748b;
-  --color-border: #e2e8f0;
+  /* Primary: Deep Alta Red / Maroon */
+  --color-primary: #9e1c1c;
+  --color-primary-light: #dc2626;
+  --color-primary-dark: #7f1d1d;
 
-  /* Typography */
+  /* Accent: Basanti / Mustard Yellow */
+  --color-accent: #d97706;
+  /* Warm Amber/Mustard */
+  --color-accent-light: #fbbf24;
+  --color-accent-dark: #b45309;
+
+  /* Neutral Colors - Warm tones */
+  --color-bg: #fffbf0;
+  /* Very light cream/off-white */
+  --color-bg-alt: #fef3c7;
+  /* Light warm beige */
+  --color-text: #292524;
+  /* Warm dark gray (Stone 800) */
+  --color-text-muted: #57534e;
+  /* Warm gray (Stone 500) */
+  --color-border: #e7e5e4;
+  /* Stone 200 */
+
+  /* Typography - Keeping modern sans-serif for readability */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-heading: 'Outfit', sans-serif;
 
@@ -23,7 +32,7 @@
   --container-width: 1200px;
   --header-height: 4rem;
   --spacing-unit: 1rem;
-  
+
   /* Radii */
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
@@ -37,9 +46,9 @@
 }
 
 .dark {
-  --color-bg: #0f172a;
-  --color-bg-alt: #1e293b;
-  --color-text: #f8fafc;
-  --color-text-muted: #94a3b8;
-  --color-border: #334155;
+  --color-bg: #1c1917;
+  --color-bg-alt: #292524;
+  --color-text: #f5f5f4;
+  --color-text-muted: #a8a29e;
+  --color-border: #44403c;
 }

@@ -6,8 +6,8 @@ const MusicProgram = () => {
     return (
         <div className="program-detail-page">
             <Helmet>
-                <title>Music & Performance - Suvan Sarada</title>
-                <meta name="description" content="Learn Guitar, Piano, Tabla, Drums, Violin, Flute, and Singing at Suvan Sarada." />
+                <title>Music & Performance - Shuvan Sarada</title>
+                <meta name="description" content="Learn Guitar, Piano, Tabla, Drums, Violin, Flute, and Singing at Shuvan Sarada." />
             </Helmet>
 
             <div className="program-hero" style={{ backgroundColor: 'var(--color-primary-dark)', color: 'white', padding: '4rem 1rem', textAlign: 'center' }}>

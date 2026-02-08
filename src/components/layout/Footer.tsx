@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-brand">
-                        <h3>Suvan Sarada</h3>
+                        <h3>Shuvan Sarada</h3>
                         <p>Where Creativity Meets Excellence.</p>
                         <p>Affiliated with Pracheen Kala Kendra.</p>
                         <div className="social-links" style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem' }}>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Suvan Sarada. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Shuvan Sarada. All rights reserved.</p>
                 </div>
             </div>
         </footer>

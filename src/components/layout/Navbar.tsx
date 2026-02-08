@@ -22,7 +22,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="container navbar-content">
                 <Link to="/" className="navbar-brand" onClick={() => setIsOpen(false)}>
-                    Suvan <span>Sarada</span>
+                    Shuvan <span>Sarada</span>
                 </Link>
 
                 <button className="mobile-menu-btn" onClick={toggleMenu} aria-label="Toggle menu">

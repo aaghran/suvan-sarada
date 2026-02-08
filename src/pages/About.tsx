@@ -7,8 +7,8 @@ const About = () => {
     return (
         <div className="about-page">
             <Helmet>
-                <title>About Us - Suvan Sarada</title>
-                <meta name="description" content="Learn about Suvan Sarada's mission to provide a safe, disciplined, and creative environment for learners in Salt Lake." />
+                <title>About Us - Shuvan Sarada</title>
+                <meta name="description" content="Learn about Shuvan Sarada's mission to provide a safe, disciplined, and creative environment for learners in Salt Lake." />
             </Helmet>
 
             {/* Hero Section */}
@@ -30,7 +30,7 @@ const About = () => {
                         <div className="mission-text">
                             <h2>Our Mission</h2>
                             <p>
-                                At <strong>Suvan Sarada</strong>, we believe that education extends beyond textbooks. Our mission is to provide a holistic learning environment that nurtures <strong>creativity, discipline, and well-being</strong>.
+                                At <strong>Shuvan Sarada</strong>, we believe that education extends beyond textbooks. Our mission is to provide a holistic learning environment that nurtures <strong>creativity, discipline, and well-being</strong>.
                             </p>
                             <p>
                                 Whether you are a child picking up an instrument for the first time or an adult revisiting a long-lost hobby, we are here to guide you. We strive to create a space where talent is discovered, honed, and celebrated.

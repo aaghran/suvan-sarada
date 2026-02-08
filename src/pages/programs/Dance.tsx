@@ -6,7 +6,7 @@ const DanceProgram = () => {
     return (
         <div className="program-detail-page">
             <Helmet>
-                <title>Dance & Fitness - Suvan Sarada</title>
+                <title>Dance & Fitness - Shuvan Sarada</title>
                 <meta name="description" content="Stay fit and express yourself with Yoga, Aerobics, Meditation, and various Dance forms." />
             </Helmet>
 

@@ -20,8 +20,8 @@ const Contact = () => {
     return (
         <div className="contact-page">
             <Helmet>
-                <title>Contact Us - Suvan Sarada</title>
-                <meta name="description" content="Book a free trial class at Suvan Sarada. Located in Salt Lake, Kolkata." />
+                <title>Contact Us - Shuvan Sarada</title>
+                <meta name="description" content="Book a free trial class at Shuvan Sarada. Located in Salt Lake, Kolkata." />
             </Helmet>
 
             <div className="contact-hero">

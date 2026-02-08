@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="home-page">
             <Helmet>
-                <title>Suvan Sarada - Multi-Creativity Centre in Salt Lake</title>
+                <title>Shuvan Sarada - Multi-Creativity Centre in Salt Lake</title>
                 <meta name="description" content="Kolkata's premier centre for Music, Dance, Academics, and Arts. Join us to nurture your creativity." />
             </Helmet>
 
@@ -117,7 +117,7 @@ const Home = () => {
                 <div className="container">
                     <Quote className="quote-icon" />
                     <p className="testimonial-quote">
-                        "Learning Guitar at Suvan Sarada transformed my hobby into a passion. The teachers are incredibly patient and the environment is so inspiring."
+                        "Learning Guitar at Shuvan Sarada transformed my hobby into a passion. The teachers are incredibly patient and the environment is so inspiring."
                     </p>
                     <div className="author-box">
                         <img src="https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671142.jpg" alt="Rohan Das" className="author-avatar" />

@@ -7,8 +7,8 @@ const Programs = () => {
     return (
         <div className="programs-page">
             <Helmet>
-                <title>Our Programs - Suvan Sarada</title>
-                <meta name="description" content="Explore Music, Dance, Academics, and Hobby classes at Suvan Sarada." />
+                <title>Our Programs - Shuvan Sarada</title>
+                <meta name="description" content="Explore Music, Dance, Academics, and Hobby classes at Shuvan Sarada." />
             </Helmet>
 
             {/* Hero Section */}

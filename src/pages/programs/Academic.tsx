@@ -6,7 +6,7 @@ const AcademicProgram = () => {
     return (
         <div className="program-detail-page">
             <Helmet>
-                <title>Academic Enrichment - Suvan Sarada</title>
+                <title>Academic Enrichment - Shuvan Sarada</title>
                 <meta name="description" content="Boost cognitive skills with Abacus, Mental Maths, Communicative English, and Personality Development." />
             </Helmet>
 

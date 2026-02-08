@@ -6,7 +6,7 @@ const HobbyProgram = () => {
     return (
         <div className="program-detail-page">
             <Helmet>
-                <title>Hobby Classes - Suvan Sarada</title>
+                <title>Hobby Classes - Shuvan Sarada</title>
                 <meta name="description" content="Explore your creative side with Painting, Photography, Candle Making, and Flower Arrangement." />
             </Helmet>
 
