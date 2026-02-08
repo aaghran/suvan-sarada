@@ -1,0 +1,229 @@
+/* Home Page Layout */
+.home-page {
+    background-color: #f8fafc;
+}
+
+/* Home Hero */
+.home-hero {
+    position: relative;
+    min-height: 600px;
+    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.home-hero-content {
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.badge-affiliate {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-accent);
+}
+
+.badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+}
+
+.home-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.home-hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* Featured Programs */
+.section-programs {
+    padding: 5rem 0;
+}
+
+.section-title {
+    margin-bottom: 3rem;
+}
+
+.section-title span {
+    color: var(--color-accent);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: var(--color-text);
+}
+
+.program-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.programs-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform 0.3s;
+    border: 1px solid var(--color-border);
+}
+
+.programs-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.programs-img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.programs-content {
+    padding: 2rem;
+}
+
+.programs-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--color-bg-alt);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+/* Why Choose Us */
+.section-why {
+    padding: 5rem 0;
+    background: var(--color-bg-alt);
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.why-image-wrapper {
+    background: #fef3c7;
+    /* yellow-100 */
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.why-image {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.feature-icon-box {
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* Testimonial */
+.section-testimonial {
+    padding: 5rem 0;
+    text-align: center;
+    background: #f1f5f9;
+}
+
+.testimonial-quote {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Outfit', sans-serif;
+    color: var(--color-text);
+    margin: 2rem auto;
+    max-width: 900px;
+    line-height: 1.4;
+}
+
+.quote-icon {
+    color: #fbbf24;
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.author-box {
+    margin-top: 2rem;
+}
+
+.author-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    border: 2px solid white;
+    box-shadow: var(--shadow-md);
+}
